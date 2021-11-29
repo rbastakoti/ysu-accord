@@ -3,6 +3,7 @@
 }
 .chatscreen-header .logo img {
   width: 60px;
+  border-radius: 50%;
 }
 .right_wrapper {
   display: flex;
