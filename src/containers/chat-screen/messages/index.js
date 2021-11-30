@@ -12,7 +12,7 @@ export default function ChatScreenMessages({user ,dp ,message ,timestamp}) {
           <div>
             <p className="badge bage-info messageText">{message}</p>
             <small className="time">
-              <span>{new Date(timestamp?.toDate()).toUTCString()}</span>
+              <span>{new Date(timestamp?.toDate()).toLocaleString()}</span>
             </small>
           </div>
         </div>
