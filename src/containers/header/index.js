@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../../images/logo.png";
-import User from '../../images/user.jpg';
 import { FaSignOutAlt } from "react-icons/fa";
 import { auth } from "../../lib/firebase";
 
